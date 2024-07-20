@@ -1,0 +1,5 @@
+﻿ 
+ English: FOUR FIVE SIX ONE TWO THREE SEVEN EIGHT ZERO NINE
+ Hindi: एक दो तीन चार पांच छह सात आठ नौ शून्य
+ Combination of English & Hindi:छह SEVEN ONE दो तीन FOUR FIVE  
+EIGHT NINE शून्य

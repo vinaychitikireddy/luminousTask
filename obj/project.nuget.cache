@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3mKNEEGoC8JbLVCwjwmvAL5uQnxTFHXQqsVRTAnm0R329Sa02AkECx4tW9SGYeBHbQ2oHobGpQDqjKpbxtGX9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ADMIN\\DetectPhoneNumbers\\DetectPhoneNumbers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0-preview.6.24327.7\\microsoft.extensions.dependencyinjection.9.0.0-preview.6.24327.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.6.24327.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.6.24327.7.nupkg.sha512"
+  ],
+  "logs": []
+}

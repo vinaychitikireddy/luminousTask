@@ -19,9 +19,9 @@ class Program
             string inputFilename = Console.ReadLine();
             if (!string.IsNullOrEmpty(inputFilename))
             {
-                string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-                string fileName = "notepad.txt";
-                string filePath = Path.Combine(documentsPath, fileName);
+                //string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                //string fileName = "notepad.txt";
+                //string filePath = Path.Combine(documentsPath, fileName);
                 fileContent = File.ReadAllText(inputFilename);
                 Console.WriteLine(fileContent);
             }

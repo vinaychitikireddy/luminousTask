@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetectPhoneNumbers", "DetectPhoneNumbers.csproj", "{C868E2D4-5805-4B6C-A236-E33702A87C9F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetectionTests", "..\DetectionTests\DetectionTests.csproj", "{130584A2-8A6A-4401-A0F6-806E1C5286F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetectionTests", "..\DetectionTests\DetectionTests.csproj", "{B609AD00-7EE4-4C41-9957-8F15AFC37C67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{C868E2D4-5805-4B6C-A236-E33702A87C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C868E2D4-5805-4B6C-A236-E33702A87C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C868E2D4-5805-4B6C-A236-E33702A87C9F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{130584A2-8A6A-4401-A0F6-806E1C5286F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{130584A2-8A6A-4401-A0F6-806E1C5286F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{130584A2-8A6A-4401-A0F6-806E1C5286F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{130584A2-8A6A-4401-A0F6-806E1C5286F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B609AD00-7EE4-4C41-9957-8F15AFC37C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B609AD00-7EE4-4C41-9957-8F15AFC37C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B609AD00-7EE4-4C41-9957-8F15AFC37C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B609AD00-7EE4-4C41-9957-8F15AFC37C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

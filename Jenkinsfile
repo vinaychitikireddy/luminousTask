@@ -20,20 +20,6 @@ environment {
                 bat 'echo Build step completed!'  // Replace with actual build command
             }
         }
-        stage('Build Docker Image') {
-            steps {
-                bat "docker build -t $IMAGE_NAME ."
-            }
-        }
-
-        stage('Push Docker Image') {
-            steps {
-                withDockerRegistry([credentialsId: 'docker-hub-credentials', url: '']) {
-                    sh "docker tag $IMAGE_NAME $DOCKER_HUB_USER/$DOCKER_HUB_REPO:$BUILD_NUMBER"
-                    sh "docker push $DOCKER_HUB_USER/$DOCKER_HUB_REPO:$BUILD_NUMBER"
-                }
-            }
-        }
         stage('Test') {
             steps {
                 echo 'Running tests...'
@@ -47,5 +33,20 @@ environment {
                 bat 'echo Deployment step completed!'  // Replace with actual deploy command
             }
         }
+        stage('Build Docker Image') {
+            steps {
+                bat "docker build -t $IMAGE_NAME ."
+            }
+        }
+
+        stage('Push Docker Image') {
+            steps {
+                withDockerRegistry([credentialsId: 'docker-hub-credentials', url: 'https://hub.docker.com/u/vinaydocker007']) {
+                    sh "docker tag $IMAGE_NAME $DOCKER_HUB_USER/$DOCKER_HUB_REPO:$BUILD_NUMBER"
+                    sh "docker push $DOCKER_HUB_USER/$DOCKER_HUB_REPO:$BUILD_NUMBER"
+                }
+            }
+        }
+        
     }
 }

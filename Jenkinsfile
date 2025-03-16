@@ -11,21 +11,21 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                sh 'echo Build step completed!'  // Replace with actual build command
+                bat 'echo Build step completed!'  // Replace with actual build command
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh 'echo Test step completed!'  // Replace with actual test command
+                bat 'echo Test step completed!'  // Replace with actual test command
             }
         }
 
         stage('Deploy') {
             steps {
                 echo 'Deploying application...'
-                sh 'echo Deployment step completed!'  // Replace with actual deploy command
+                bat 'echo Deployment step completed!'  // Replace with actual deploy command
             }
         }
     }

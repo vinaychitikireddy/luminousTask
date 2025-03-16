@@ -33,13 +33,13 @@ environment {
                 bat 'echo Deployment step completed!'  // Replace with actual deploy command
             }
         }
-        stage('Build Docker Image') {
+   /*      stage('Build Docker Image') {
             steps {
                 bat "docker build -t $IMAGE_NAME ."
             }
         }
 
-    /*    stage('Push Docker Image') {
+       stage('Push Docker Image') {
             steps {
                 withDockerRegistry([credentialsId: 'docker-hub-credentials', url: 'https://hub.docker.com/u/vinaydocker007']) {
                     sh "docker tag $IMAGE_NAME $DOCKER_HUB_USER/$DOCKER_HUB_REPO:$BUILD_NUMBER"
